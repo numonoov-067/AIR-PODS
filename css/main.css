@@ -1,0 +1,302 @@
+@import url(./font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-font: "Montsettar";
+    --title-font: "Prosto One";
+    --darkP: #282828;
+    --black: #000;
+    --drakA: #171718;
+    --darkS: #151515;
+    --NotDark: #C4C4C4;
+    --white: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.site_aipods_header {
+    margin: auto;
+}
+
+.site_aipods {
+    background-color: var(--darkP);
+    max-width: 100%;
+    width: 100%;
+    height: 65px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site_aipods-desc {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.airpods-logo {}
+
+.site_aipods__menu {
+    display: flex;
+    column-gap: 30px;
+}
+
+.site_aipods__item {}
+
+.site_aipods__link {
+    color: var(--white);
+    text-align: right;
+    font-family: var(--text-font);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.site_aipods__icon {
+    padding-right: 20px;
+}
+
+.site_aipods__icon1 {}
+
+
+.glomalnav-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -450px;
+}
+
+.site-glomalnav__title {
+    color: var(--white);
+    font-family: var(--title-font);
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.site-glomalnav__button {
+    width: 200px;
+    height: 50px;
+    background-color: var(--white);
+    color: var(--drakA);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 12px;
+    margin-top: 34px;
+}
+
+
+.main {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--darkS);
+}
+
+.main__cards {
+    margin-top: 285px;
+}
+
+.main-card {
+    display: flex;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 50px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.duble {
+    column-gap: 86px;
+}
+
+.main-card__text_1 {
+    width: 538px;
+    color: var(--white);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.card-after::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: var(--NotDark);
+}
+
+.main-card__text_2 {
+    width: 540px;
+    color: var(--white);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.main-card__text_3 {
+    width: 333px;
+    color: var(--white);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-align: right;
+    font-weight: 300;
+}
+
+.main-card__text_4 {
+    width: 333px;
+    color: var(--white);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+.phons_carder {
+    width: 100%;
+    margin: 60px 0;
+}
+
+.phons_carder-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background: #151515;
+}
+
+.phons_carder__card {
+    width: 275px;
+    height: 362px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 6px;
+
+}
+
+.carder__card-title {
+    color: #000;
+    font-family: var(--title-font);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.carder__card-image {
+    width: 99.5px;
+    height: 167px;
+
+
+}
+
+.agro_img {
+    width: 127.5px;
+    height: 167px;
+}
+
+.carder__card-text {
+    color: #000;
+    font-family: var(--title-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+.card_btn {
+    width: 161px;
+    height: 34px;
+    background-color: var(--darkS);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contairer {
+    width: 1200px;
+    margin: auto;
+
+}
+
+.card_btn-text {
+    color: var(--white);
+
+    font-family: var(--title-font);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.footer {
+    width: 100%;
+    height: 215px;
+    background: #282828;
+    box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foter-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo {}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    width: 235px;
+}
+
+.footer_list-item {}
+
+.footer_list-link {
+    color: var(--white);
+    font-family:var(--title-font);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sponsor_logos {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+
+}
+
+.sponsor_logo1 {}
+
+.sponsor_logo2 {}
+
